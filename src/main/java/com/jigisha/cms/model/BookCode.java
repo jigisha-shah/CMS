@@ -7,7 +7,7 @@ import com.jigisha.cms.model.BookCodeValidator;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-import com.sun.tools.javac.code.Attribute.RetentionPolicy;
+
 
 @Constraint(validatedBy= BookCodeValidator.class)
 @Target({ElementType.METHOD,ElementType.FIELD})
